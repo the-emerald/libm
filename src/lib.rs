@@ -1,7 +1,7 @@
 //! libm in pure Rust
 #![deny(warnings)]
 #![no_std]
-#![cfg_attr(all(feature = "unstable"), feature(core_intrinsics))]
+#![feature(core_intrinsics)]
 #![allow(clippy::unreadable_literal)]
 #![allow(clippy::many_single_char_names)]
 #![allow(clippy::needless_return)]
